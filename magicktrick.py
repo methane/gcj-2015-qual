@@ -15,7 +15,7 @@ def solve(T):
     elif cand:
         print("Case #{}: Bad magician!".format(T))
     else:
-        print("Case #{}: Bad Volunteer cheated!".format(T))
+        print("Case #{}: Volunteer cheated!".format(T))
 
 
 T = int(sys.stdin.readline())
