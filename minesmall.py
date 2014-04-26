@@ -97,7 +97,7 @@ def main():
     for t in range(1, T+1):
         r, c, m = map(int, sys.stdin.readline().split())
         ret = solve(r, c, m)
-        print("Case #{}".format(t))
+        print("Case #{}:".format(t))
         if ret is None:
             print("Impossible")
         else:
